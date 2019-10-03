@@ -1,10 +1,10 @@
 package 母牛问题;
 
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+/** 面向过程编程的思路 */
 public class guocheng {
 
     public static void main(String[] args) {
