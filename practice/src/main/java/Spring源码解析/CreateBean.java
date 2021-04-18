@@ -1,3 +1,4 @@
+/*
 package Spring源码解析;
 
 import lombok.extern.slf4j.Slf4j;
@@ -178,7 +179,9 @@ public class CreateBean {
             }
         }
 
-        /** 是否需要提早曝光：单例&允许循环依赖&当前bean正在创建中，检测循环依赖 */
+        */
+/** 是否需要提早曝光：单例&允许循环依赖&当前bean正在创建中，检测循环依赖 *//*
+
         boolean earlySingletonExposure =
                 ((mbd.isSingleton())
                         && this.allwoCircularReferences
@@ -235,10 +238,12 @@ public class CreateBean {
                             actualDependentBeans.add(dependentBean);
                         }
                     }
-                    /*
+                    */
+/*
                      * 因为bean创建后其所依赖的bean一定是已经创建的，
                      * actualDependentBeans不为空则表示当前bean创建后其依赖的bean却没有全部创建完，也就是说存在循环依赖
-                     */
+                     *//*
+
                     if (!actualDependentBeans.isEmpty()) {
                         // 抛出异常
                     }
@@ -317,3 +322,4 @@ public class CreateBean {
         return instantiateBean(beanName, mbd);
     }
 }
+*/

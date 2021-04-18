@@ -49,7 +49,7 @@ public class 解决1分2分5分硬币的组合问题 {
         /** 2x+4y+6z = 100 x+2y+3z = 50 3z = 50 - x - 2y */
         int number2 = 0;
         for (int m = 0; m <= 50; m += 3) {
-            number += (m + 2) / 2;
+            number2 += (m + 2) / 2;
         }
         System.out.println("总方法数：" + number2);
     }
